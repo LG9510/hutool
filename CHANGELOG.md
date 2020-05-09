@@ -3,6 +3,30 @@
 
 -------------------------------------------------------------------------------------------------------------
 
+## 5.3.3 (2020-05-05)
+
+### 新特性
+* 【core   】     ImgUtil.createImage支持背景透明（issue#851@Github）
+* 【json   】     更改JSON转字符串时"</"被转义的规则为不转义（issue#852@Github）
+* 【cron   】     表达式的所有段支持L关键字（issue#849@Github）
+* 【extra  】     增加PinyinUtil，封装TinyPinyin
+* 【extra  】     Ftp和Sftp增加FtpConfig，提供超时等更多可选参数
+* 【extra  】     SpringUtil增加getActiveProfiles、getBeansOfType、getBeanNamesForType方法（issue#I1FXF3@Gitee）
+* 【bloomFilter】 避免布隆过滤器数字溢出（pr#119@Gitee）
+* 【core   】     增加IoUtil.writeObj（issue#I1FZIE）
+* 【core   】     增加FastStringWriter
+* 【core   】     增加NumberUtil.ceilDiv方法（pr#858@Github）
+* 【core   】     IdcardUtil增加省份校验（issue#859@Github）
+* 【extra  】     TemplateFactory和TokenizerFactory增加单例的get方法
+
+### Bug修复
+* 【core   】     修复URLBuilder中请求参数有`&amp;`导致的问题（issue#850@Github）
+* 【core   】     修复URLBuilder中路径以`/`结尾导致的问题（issue#I1G44J@Gitee）
+* 【db     】     修复SqlBuilder中orderBy无效问题（issue#856@Github）
+* 【core   】     修复StrUtil.subBetweenAll错误问题（issue#861@Github）
+
+-------------------------------------------------------------------------------------------------------------
+
 ## 5.3.2 (2020-04-23)
 
 ### 新特性
