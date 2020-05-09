@@ -60,6 +60,7 @@
 			<version>${lombok.version}</version>
 			<scope>test</scope>
 		</dependency>
+
 	</dependencies>
 
 	<issueManagement>
@@ -128,6 +129,7 @@
 					<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
 				</repository>
 			</distributionManagement>
+
 			<build>
 				<plugins>
 					<!-- Source -->
